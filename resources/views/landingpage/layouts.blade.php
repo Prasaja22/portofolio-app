@@ -157,7 +157,7 @@
                       <p class="text-gray-700 text-base"> {{ $item->deskripsi }} </p>
                     </div>
                     <div class="px-6 pt-4  pb-5">
-                        <a href="#" class=" inline-block transition transform duration-300 focus:scale-110 focus:text-white focus:bg-emerald-700 bg-gray-200 rounded-full px-3 py-2 text-sm font-semibold text-gray-700 mr-2 group-hover:bg-teal-600 group-hover:text-white">Cek Sekarang!</a>
+                        <a href="{{ '/product-detail/'.$item->id }}" class=" inline-block transition transform duration-300 focus:scale-110 focus:text-white focus:bg-emerald-700 bg-gray-200 rounded-full px-3 py-2 text-sm font-semibold text-gray-700 mr-2 group-hover:bg-teal-600 group-hover:text-white">Cek Sekarang!</a>
                       </div>
                 </div>
                 @empty

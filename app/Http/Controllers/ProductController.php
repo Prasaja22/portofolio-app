@@ -22,10 +22,12 @@ class ProductController extends Controller
     /**
      * Show the form for creating a new resource.
      */
-    public function create()
+    public function view(String $id)
     {
 
+        $data = Product::findOrFail($id);
 
+        return view('product.productdetail', compact('data'));
 
     }
 

@@ -85,10 +85,6 @@
             <a href="{{ '/wait-list' }}"><h1 class="cursor-pointer p-2 hover:bg-gray-700 rounded-md mt-1">Waiting-list Product</h1></a>
             <a href="{{ '/active-product' }}"><h1 class="cursor-pointer p-2 hover:bg-gray-700 rounded-md mt-1">Active Product</h1></a>
           </div>
-        <div class="p-2.5 mt-2 flex items-center rounded-md px-4 duration-300 cursor-pointer  hover:bg-gradient-to-l from-cyan-600 to-teal-600">
-          <i class="bi bi-cart-fill"></i>
-          <span class="text-[15px] ml-4 text-gray-200 select-none">Shopping Store</span>
-        </div>
         <hr class="my-4 text-gray-600">
         @auth
         @if ( Auth::user()->role == 'admin' )
@@ -112,7 +108,6 @@
         <div class=" leading-7 text-left text-sm font-thin mt-2 w-4/5 mx-auto" id="submenu">
           <a href="{{ '/replied' }}"><h1 class="cursor-pointer p-2 hover:bg-gray-700 rounded-md mt-1">Replied Messages</h1></a>
           <a href="{{ '/approve-products' }}"><h1 class="cursor-pointer p-2 hover:bg-gray-700 rounded-md mt-1">Product Approval</h1></a>
-          <h1 class="cursor-pointer p-2 hover:bg-gray-700 rounded-md mt-1">Friends</h1>
         </div>
         @endif
         @endauth
