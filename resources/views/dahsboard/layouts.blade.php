@@ -5,7 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>sidebar</title>
-  @vite('../../resources/css/app.css')
+  <link rel="stylesheet" href="{{ asset('build/assets/app-0d91dc04.js') }}">
+  <link rel="stylesheet" href="{{ asset('build/assets/app-13fb7ff3.css') }}">
   <!-- <script src="./tailwind3.js"></script> -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;800&display=swap"
     rel="stylesheet">
